@@ -1,8 +1,8 @@
 # Project of Data Visualization (COM-480)
 
-| Student's name | SCIPER |
-| -------------- | ------ |
-| | |
+| Yann Mentha | 252256 |
+| Gianni Guisto| 251795 |
+| Julien Berger| 247179 |
 | | |
 | | |
 
@@ -23,4 +23,3 @@
 ## Milestone 3 (Thursday 28th May, 5pm)
 
 **80% of the final grade**
-
