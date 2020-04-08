@@ -9,6 +9,23 @@ from IPython.display import clear_output
 from shutil import copyfile
 
 
+def crop_imgs(path_to_imgs_dirs):
+    """
+    Crop the images from imgs_dirs to 224x224.
+    Args:
+        path_to_imgs_dirs(str):path to the train or val folder of ImageNet
+    """
+    print("Crop started!")
+    for i,(root, dirs, files) in enumerate(os.walk(path_to_imgs_dirs,topdown=False)):
+        clear_output(wait=True)
+        print("Progression:{:.2f}%".format(i/1000*100))
+        for name in files:
+                path = os.path.join(root, name)
+                image = Image.open(path)
+                image = transforms.CenterCrop(224)(image)
+                image.save(path)
+    print("Crop cleaning terminated.")
+
 
 def create_folders(path,direc_types,model_info):
     """
