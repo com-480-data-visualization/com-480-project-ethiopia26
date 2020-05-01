@@ -52,7 +52,7 @@ We provide here a working beta version to show the direction we are taking in th
 * M. D. Zeiler and R. Fergus, _Visualizing and Understanding Convolutional Networks_. In _arXiv:1311.2901_, 2013. Available: https://arxiv.org/abs/1311.2901
 * J. Yosinski _et al_., _Understanding neural networks through deep visualization_. In _arXiv:1506.06579_, 2015. Available: https://arxiv.org/abs/1506.06579
 * Yosinski Jason, _Deep visualization toolbox_, (2017), GitHub repository: https://github.com/yosinski/deep-visualization-toolbox
-* Yosinski Jason, _Understanding Neural Networks Through Deep Visualization, (2020), Access: http://yosinski.com/deepvis
+* Yosinski Jason, _Understanding Neural Networks Through Deep Visualization_, (2020), Access: http://yosinski.com/deepvis
 * Ozbulak, Utku, _PyTorch CNN visualizations_, (2020), GitHub repository: https://github.com/utkuozbulak/pytorch-cnn-visualizations
 
 
