@@ -38,10 +38,10 @@ The goal of the `frontend` is to provide a user-friendly and intuitive interface
 Network dynamical visualization are done using JavaScript and the library `D3.js`. To grasp the idea of our project, you are invited to open the HTML file `test.html` with the command (when no instance of chrome is already running):
 
 ```
-google-chrome --allow-file-access-from-files test.html
+google-chrome --allow-file-access-from-files main.html
 ```
 
-### Road to Milestone 2
+### Road to Milestones 2-3
 We provide here a working beta version to show the direction we are taking in this project. By milestone 2, we will in particular:
 * display network architecture
 * include more network architectures
@@ -49,7 +49,11 @@ We provide here a working beta version to show the direction we are taking in th
 * use deconvolution to project back the output to the input
 
 ### References
-M. D. Zeiler and R. Fergus, _Visualizing and Understanding Convolutional Networks_. In _arXiv:1311.2901_, 2013. Available: https://arxiv.org/abs/1311.2901
+* M. D. Zeiler and R. Fergus, _Visualizing and Understanding Convolutional Networks_. In _arXiv:1311.2901_, 2013. Available: https://arxiv.org/abs/1311.2901
+* J. Yosinski _et al_., _Understanding neural networks through deep visualization_. In _arXiv:1506.06579_, 2015. Available: https://arxiv.org/abs/1506.06579
+* Yosinski Jason, _Deep visualization toolbox_, (2017), GitHub repository: https://github.com/yosinski/deep-visualization-toolbox
+* Yosinski Jason, _Understanding Neural Networks Through Deep Visualization, (2020), Access: http://yosinski.com/deepvis
+* Ozbulak, Utku, _PyTorch CNN visualizations_, (2020), GitHub repository: https://github.com/utkuozbulak/pytorch-cnn-visualizations
 
 
 _____
@@ -57,7 +61,13 @@ _____
 
 **10% of the final grade**
 
+You will find the project description in the `milestone2` folder. 
 
+The functional project prototype with the minimal HTML backbone can be found by running the following command: 
+
+```
+google-chrome --allow-file-access-from-files main.html
+```
 
 _____
 ## Milestone 3 (Thursday 28th May, 5pm)
@@ -73,8 +83,8 @@ _____
 `src`: for the source code (frontend) i.e. main.html, main.css and main.js<br>
 `saved_model`: directory where we keep the json structure of each layers/filters for a given NN<br>
 `data`: data directory<br>
--- `tinyimagenet`: subset of imageNet(10 img per class, 1000 classes)<br>
--- `exsmallimagenet`: subset of tinyimagenet ( variables img and classes) <br>
+-- `tinyimagenet`: subset of imageNet (10 img per class, 1000 classes) <br>
+-- `exsmallimagenet`: subset of tinyimagenet (variables img and classes) <br>
 `src`: source code <br>
--- `Torchlurk.ipynb`: backend code
--- `main.css,main.html,main.js`:frontend interface
+-- `Torchlurk.ipynb`: backend code <br>
+-- `main.css,main.html,main.js`: frontend interface
