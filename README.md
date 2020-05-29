@@ -75,8 +75,9 @@ _____
 **80% of the final grade**
 
 Instead of copying all the code for the library and the website, we redirect you to Torchlurk's main directories. Indeed, it was easier to split the content into distinct repositories as follow:
+* [website repo](https://torchlurk.github.io/)
 * [backend and documentation](https://github.com/torchlurk/torchlurk) 
-* [website](https://github.com/torchlurk/torchlurk.github.io)
+* [website repo](https://github.com/torchlurk/torchlurk.github.io)
 * [library](https://github.com/torchlurk/torchlurk/tree/master/torchlurk)
 
 
