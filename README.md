@@ -80,7 +80,7 @@ Instead of copying all the code for the library and the website, we redirect you
 * [library](https://github.com/torchlurk/torchlurk/tree/master/torchlurk)
 
 
-The *website* is available at: [torchlurk.github.io](https://torchlurk.github.io/). The *process book* can be found [here](https://github.com/torchlurk/torchlurk.github.io/blob/master/process_book.pdf). There is as well a [tool presentation](https://www.youtube.com/watch?v=iRjrnuwGJ9M&t=11s) as well as a [website tour](https://www.youtube.com/watch?v=27HSh75LnhQ)
+The *website* is available at: [torchlurk.github.io](https://torchlurk.github.io/). The *process book* can be found [here](https://github.com/torchlurk/torchlurk.github.io/blob/master/process_book.pdf). There is as well a [tool presentation](https://www.youtube.com/watch?v=iRjrnuwGJ9M&t=11s) as well as a [website tour](https://www.youtube.com/watch?v=27HSh75LnhQ). Finally, you can check the library [on pip](https://pypi.org/project/torchlurk/0.1.2/)
 
 
 _____
